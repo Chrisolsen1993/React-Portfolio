@@ -1,12 +1,12 @@
 import React from 'react';
 
 export default function Work() {
-    const dayImg = require("./src/assets/images/day-planner.png");
-    const jobsImg = require("./src/assets/images/jobs.png");
-    const materialImg = require("./src/assets/images/mat.png");
-    const techImg = require("./src/assets/images/blog.png");
-    const wheatherImg = require("./src/assets/images/wheather.png");
-    const codeImg = require("./src/assets/images/quiz.png");
+    const dayImg = require("../../assets/images/day-planner.png");
+    const jobsImg = require("../../assets/images/jobs.png");
+    const materialImg = require("../../assets/images/mat.png");
+    const techImg = require("../../assets/images/blog.png");
+    const wheatherImg = require("../../assets/images/wheather.png");
+    const codeImg = require("../../assets/images/quiz.png");
   return (
     <section class="projects" id="projects">
     <div class="max-width">

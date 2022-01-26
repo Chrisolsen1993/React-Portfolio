@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/portfolio.css';
 
 export default function About() {
-  const profile = require("../../src/assets/images/avatar.jpeg");
+  const profile = require("../../assets/images/avatar.jpeg");
   return (
     <section className="about-me-section" id="About-me">
     <div className="max-width">
