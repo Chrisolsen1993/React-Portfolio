@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/portfolio.css';
+import './style/portfolio.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -19,28 +19,36 @@ function NavTabs({ currentPage, handlePageChange }) {
             <li>
                 <a href="#home"
                 onClick={() => handlePageChange('Home')}
-                className="a-nav"> Home </a>
+                className={currentPage === 'Home' ? 'a-nav active' : 'a-nav'}>
+                 
+                Home
+                </a>
+                
             </li>
               <li>
                   <a href="#About-me" 
                   onClick={() => handlePageChange('About')}
-                  className="a-nav"> About me </a>
+                  className={currentPage === 'About' ? 'a-nav active' : 'a-nav'}> 
+                  About me </a>
               </li>
               <li>
                   <a href="#projects" 
                   onClick={() => handlePageChange('Projects')}
-                  className="a-nav">Projects </a>
+                  className={currentPage === 'Projects' ? 'a-nav active' : 'a-nav'}>
+                    Projects </a>
               </li>
               <li>
               
                 <a href="#skills" 
                 onClick={() => handlePageChange('Skills')}
-                className="a-nav">Skills </a>
+                className={currentPage === 'Skills' ? 'a-nav active' : 'a-nav'}>
+                  Skills </a>
             </li>
               <li>
                   <a href="#contact" 
-                  onClick={() => handlePageChange('Contacts')}
-                  className="a-nav">Contact Me </a>
+                  onClick={() => handlePageChange('Contact')}
+                  className={currentPage === 'Contact' ? 'a-nav active' : 'a-nav'}>
+                    Contact Me </a>
               </li>
               <li>
                   <a href="https://docs.google.com/document/d/1EmSmiOf9eGJIdYdcUKgfW5vnZAasDbMYjGCdiW2hZ58/edit" target="_blank" class="a-nav">Resume</a>
