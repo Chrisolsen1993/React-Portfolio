@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/portfolio.css';
-
+import '../utils/home-helper.js';
 export default function Home() {
   return (
     <section className="home" id="home">
