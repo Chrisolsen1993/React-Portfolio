@@ -8,14 +8,12 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 
    // <!-- Headers -->
-    <header class="header">
+    <header className="header">
     
-           <h1>Olsen Ogouchi</h1> 
-        
-      <nav class="navbar">
-        <div class ="max-width">
-            <div class="logo"><a href="#" class="port" >Portfo<span class="design">lio.</span></a></div>
-          <ul class="nav-link">
+      <nav className="navbar">
+        <div className="max-width">
+            <div className="logo"><a href="#" className="port" >Portfo<span className="design">lio.</span></a></div>
+          <ul className="nav-link">
             <li>
                 <a href="#home"
                 onClick={() => handlePageChange('Home')}
@@ -51,11 +49,11 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Contact Me </a>
               </li>
               <li>
-                  <a href="https://docs.google.com/document/d/1EmSmiOf9eGJIdYdcUKgfW5vnZAasDbMYjGCdiW2hZ58/edit" target="_blank" class="a-nav">Resume</a>
+                  <a href="https://docs.google.com/document/d/1EmSmiOf9eGJIdYdcUKgfW5vnZAasDbMYjGCdiW2hZ58/edit" target="_blank" className="a-nav">Resume</a>
               </li>
           </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+          <div className="menu-btn">
+            <i className="fas fa-bars"></i>
         </div>
         </div>
       </nav>
