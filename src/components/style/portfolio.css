@@ -61,7 +61,8 @@ html{
     width: 100%;
     font-family: "Montserrat", sans-serif;
     /* background-color: #24252a; */
-    
+    background-color: #24252a;
+    color: snow;
    
 }
 
@@ -79,7 +80,7 @@ html{
 }
 .port{
     font-family: "Montserrat", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color:#24252a;
+    color:snow;
     font-size: 30px;
     font-weight:500px;
 }
@@ -92,7 +93,7 @@ html{
     font-weight: 500px;
     font-size:17px;
     /* color:#92451b; */
-    color: rgb(75, 71, 71);
+    color: snow;
     text-decoration: none;
 }
 .a-nav1{
@@ -514,7 +515,13 @@ footer{
     padding: 20px 23px;
     color: white;
     text-align: center;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
+    position: "fixed";
+    left: "0";
+    bottom: "0";
+    height: "60px";
+    width: "100%";
+   
 }
 /* .contact{
     display:flex;
