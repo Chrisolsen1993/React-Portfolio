@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './style/portfolio.css';
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
+ const [menuBtn, setMenuBtn] =useState(false)
+
+
   return (
 
 
@@ -13,10 +17,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       <nav className="navbar">
         <div className="max-width">
             <div className="logo"><a href="#" className="port" >Portfo<span className="design">lio.</span></a></div>
-          <ul className="nav-link">
+          <ul className={`nav-link ${menuBtn ? "active" : ""}`}>
             <li>
                 <a href="#home"
-                onClick={() => handlePageChange('Home')}
+                onClick={ () => {
+                  handlePageChange('Home') 
+                  setMenuBtn(false)}}
                 className={currentPage === 'Home' ? 'a-nav active' : 'a-nav'}>
                  
                 Home
@@ -25,26 +31,34 @@ function NavTabs({ currentPage, handlePageChange }) {
             </li>
               <li>
                   <a href="#About-me" 
-                  onClick={() => handlePageChange('About')}
+                  onClick={() => {
+                    handlePageChange('About')
+                    setMenuBtn(false)}}
                   className={currentPage === 'About' ? 'a-nav active' : 'a-nav'}> 
                   About me </a>
               </li>
               <li>
                   <a href="#projects" 
-                  onClick={() => handlePageChange('Projects')}
+                  onClick={() => {
+                    handlePageChange('Projects')
+                   setMenuBtn(false)}}
                   className={currentPage === 'Projects' ? 'a-nav active' : 'a-nav'}>
                     Projects </a>
               </li>
               <li>
               
                 <a href="#skills" 
-                onClick={() => handlePageChange('Skills')}
+                onClick={() => {
+                handlePageChange('Skills')
+                setMenuBtn(false)}}
                 className={currentPage === 'Skills' ? 'a-nav active' : 'a-nav'}>
                   Skills </a>
             </li>
               <li>
                   <a href="#contact" 
-                  onClick={() => handlePageChange('Contact')}
+                  onClick={() => {
+                  handlePageChange('Contact')
+                  setMenuBtn(false)}}
                   className={currentPage === 'Contact' ? 'a-nav active' : 'a-nav'}>
                     Contact Me </a>
               </li>
@@ -52,8 +66,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                   <a href="https://docs.google.com/document/d/1EmSmiOf9eGJIdYdcUKgfW5vnZAasDbMYjGCdiW2hZ58/edit" target="_blank" className="a-nav">Resume</a>
               </li>
           </ul>
-          <div className="menu-btn">
-            <i className="fas fa-bars"></i>
+          <div className="menu-btn" onClick={()=> setMenuBtn(!menuBtn)}>
+            <i className={`fas fa-bars ${menuBtn ? "active" : ""}`}></i>
         </div>
         </div>
       </nav>
