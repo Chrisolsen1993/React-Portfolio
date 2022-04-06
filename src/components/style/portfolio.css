@@ -234,6 +234,108 @@ section {
     text-align: justify;
 }
 /* Projects section styling */
+.popup{
+position:fixed;
+/* width: 150%;
+height: 20vh; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.highlight{
+    color:#92451b;
+    text-align: center;
+    font-family: "Raleway-bold";
+font-size: 17px;
+}
+.bold{
+    font-family: "Raleway-bold";
+    font-size: 17px;
+}
+.popup-inner{
+    background-color:black;
+    position: relative;
+   /* width:100%;
+   height: 150px; */
+   /* max-width: 500px; */
+   height: 270px;
+   max-height: 300px;
+   /* width: calc(33% -20px); */
+   
+    color:white;
+    margin-top:-270px;
+    
+}
+.banner{
+    margin-bottom: 50px;
+}
+.popJob{
+    height: 280px;
+}
+/* .textBox1{
+    display: flex;
+    justify-content: center;
+    font-size: 15px; 
+ align-items: center; 
+ width:200px;
+} */
+
+
+
+.button-area{
+    height: 50px;
+    width:170px;
+}
+.button1{
+    margin-bottom: 3px;
+}
+button{
+    height: 80%;
+    width:80%;
+    border: 2px solid #92451b;
+    background: #92451b;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+ button:hover{
+    color:#92451b;
+    background: none;
+}
+.mouse{
+    /* background-color:black; */
+    position: relative;
+    background-color: white;
+    color:white;
+    margin-top:-100px;
+    
+}
+
+
+.mydivouter{
+	position:relative;
+	background: #f90;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+}
+.mydivoverlap{
+    position: relative;
+    z-index: 1;
+}
+.mybuttonoverlap{
+	position: absolute;
+    z-index: 2;
+    top: 44px;
+    display: none;
+    left: 59px;	
+}
+
 .projects .card{
     height: 300px;
     max-height: 300px;
@@ -263,26 +365,33 @@ section {
 
 }
 .card{
+    
     width:calc(33% - 20px);
     text-align: center;
-  background: #f8e4e1;
+    background: #f8e4e1;
     border-radius: 6px;
     padding: 25px 35px;
     margin-bottom: 20px;
     transition: all 0.3s ease;
     box-shadow: 0px 8px 8px -4px lightblue ;
+ 
 }
 .card:hover{
 background: black ;
 color:snow;
+
 }
 .box{
+    /* position:relative; */
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
+/* .box:hover .mybuttonoverlap{ 
+	display:block;
+} */
 .card:hover .box{
     transform: scale(1.05)
 }
@@ -297,6 +406,7 @@ color:snow;
     object-fit:contain;
     border-radius: 50%;
     border: 5px solid #92451b;
+    visibility: visible;
 }
 .jobs{
     height:150px;
@@ -511,7 +621,7 @@ margin-bottom: 15px;
 }
 #contact{
     background: #f8e4e1;
-    height:100vh;
+    
 }
 .contact .right form .button-area button:hover{
     color:#92451b;
@@ -559,10 +669,39 @@ footer{
 .a-link a:hover{
     color:#92451b;
 }
+
+
+/* .buttonLink{
+    
+    color: red;
+    opacity: 0.1;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+  
+    margin-top: -20px;
+} */
+/* .banner{
+    width:300%;
+    background-color: black;
+    margin-top: -50px;
+} */
+
+
 /* responsive design */
 @media screen and (max-width:1300px){
     .home .max-width{
     margin-left: 0px;
+    }
+
+}
+@media screen and (max-width:1154px){
+    .textBox1{
+        word-spacing: -1px;
     }
 
 }
@@ -576,6 +715,100 @@ footer{
     margin-right:-20px;
 
 }
+.button1{
+    margin-right:3px;
+}
+
+
+    
+   
+.buttonLink{
+    
+  
+    margin-top: -20px;
+}
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:380px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -90px;
+       margin-left: -25px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+}
+@media screen and (max-width:1092px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:420px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -90px;
+       margin-left: -20px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
+}
+@media screen and (max-width:1047px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:380px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -90px;
+       margin-left: -7px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
+}
+@media screen and (max-width:992px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:380px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -90px;
+       margin-left: -20px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
+}
+@media screen and (max-width:964px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:370px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -90px;
+       margin-left: -26px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
 }
 
 @media screen and (max-width:947px){
@@ -645,7 +878,7 @@ footer{
           margin: 0 auto 60px; 
       }
       .right{
-          flex:100%
+          flex:100%;
       }
       .projects .projects-content .card{
           width: 50%;
@@ -662,11 +895,101 @@ footer{
         width: 100%;
         margin-bottom: 35px;
     }
+
+
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:330px;
+       height:100px;
+       margin-bottom:80px;
+       margin-top: -91px;
+       margin-left: -3px;
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+    
+    footer{
+       
+        background: black;
+        padding: 20px 23px;
+        color: white;
+        text-align: center;
+        /* margin-bottom: -30px; */
+        /* position: fixed works better */
+        position:static;
+        left: 0px;
+        bottom: 0px;
+        height: 60px;
+        width: 100%;
+       
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width:788px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:310px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -92px;
+       margin-left: -3px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
+}
+@media screen and (max-width:748px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:300px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -92px;
+       margin-left: -3px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
+}
+@media screen and (max-width:728px){
+    .popup-inner{
+        /* background-color:black;
+        position: relative; */
+        padding:30px;
+       width:280px;
+       height: 100px;
+       /* margin-bottom:100px; */
+        margin-top: -92px;
+       margin-left: -3px; 
+       /* max-width: 500px;
+        color:white;
+        margin-top:-100px; */
+        
+    }
+
 }
 @media screen and (max-width:690px){
     .max-width{
         
-        padding: 0 20px;  
+        padding: 0 30px;  
     }
     .home-content-2{
         font-size: 50px;
@@ -684,7 +1007,76 @@ footer{
         height: 250px;
         max-height: 250px;
     }
-    
+    .textBox1{
+        display: flex;
+        justify-content: center;
+        font-size: 15px; 
+     align-items: center; 
+     width:300px;
+    }
+    .textBox2{
+        letter-spacing:2px;
+        display: flex;
+        justify-content: center;
+        font-size: 15px; 
+     align-items: center; 
+     width:300px;
+    }
+    .textBox5{
+        word-spacing:-1px;
+        /* letter-spacing:1px; */
+        display: flex;
+        justify-content: center;
+        font-size: 15px; 
+     align-items: center; 
+     width:300px;
+    }
+    /* p{
+     font-size: 15px; 
+     align-items: center;  
+    } */
+    .mouse{
+        /* width:400px;
+        height:200px; */
+        /* background-color:black; */
+        color:white;
+        margin-top:-65px;
+    }
+    .button1{
+        margin-right:3px;
+    }
+    .button-area{
+        height: 50px;
+        width:150px;
+    }
+    .button1{
+        margin-right: 20px;
+    }
+    .popup{
+        position:fixed;
+/* width: 150%;
+height: 20vh; */
+display: flex;
+justify-content: center;
+align-items: center;
+        }
+
+        .popup-inner{
+            /* background-color:black;
+            position: relative; */
+            padding:30px;
+           width:400px;
+           height:100px;
+           /* margin-bottom:110px; */
+           margin-top: -80px;
+           margin-left: -50px;
+           /* max-width: 500px;
+            color:white;
+            margin-top:-100px; */
+            
+        }
+
+
 }
 
 
