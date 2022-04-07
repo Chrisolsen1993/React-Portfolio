@@ -163,6 +163,10 @@ html{
 section {
     padding : 80px 0;
 }
+.aboutP{
+    font-family: "Raleway-bold";
+    font-size: 17px;
+}
 
 .about-me-section{
     font-family:  Montserrat;
@@ -501,24 +505,40 @@ color:snow;
     display: inline-block;
 } */
 .skills .skills-content .right .html::before{
-width:90%;
+width:100%;
 border-radius: 50px;
 
 }
 .skills .skills-content .right .css::before{
- width:60%;
+ width:100%;
 border-radius: 50px;   
 }
 .skills .skills-content .right .js::before{
- width:80%;
+ width:100%;
 border-radius: 50px;
 }
 .skills .skills-content .right .express::before{
-    width:85%;
+    width:100%;
 border-radius: 50px;
 }
 .skills .skills-content .right .mysql::before{
-    width:70%;
+    width:100%;
+border-radius: 50px;
+}
+.skills .skills-content .right .bootstrap::before{
+    width:100%;
+border-radius: 50px;
+}
+.skills .skills-content .right .nosql::before{
+    width:100%;
+border-radius: 50px;
+}
+.skills .skills-content .right .restapi::before{
+    width:100%;
+border-radius: 50px;
+}
+.skills .skills-content .right .graphql::before{
+    width:100%;
 border-radius: 50px;
 }
 .skills .skills-content p{
@@ -699,8 +719,30 @@ footer{
     }
 
 }
+
 @media screen and (max-width:1154px){
     .textBox1{
+        word-spacing: -1px;
+    }
+
+}
+@media screen and (max-width:1145px){
+    .textBox11{
+        letter-spacing: -1px;
+    }
+
+}
+@media screen and (max-width:1134px){
+    .textBox2{
+        letter-spacing: -2px;
+    }
+    .popup-inner{
+        margin-right: -7px;
+    }
+
+}
+@media screen and (max-width:1108px){
+    .textBox5{
         word-spacing: -1px;
     }
 
@@ -730,84 +772,37 @@ footer{
     .popup-inner{
         /* background-color:black;
         position: relative; */
+        height: 270px;
+        max-height: 300px;
         padding:30px;
-       width:380px;
-       height: 100px;
+       /* width:380px;
+       height: 100px; */
        /* margin-bottom:100px; */
-        margin-top: -90px;
-       margin-left: -25px; 
+        margin-bottom: -40px;
+       margin-right: -1px; 
        /* max-width: 500px;
         color:white;
         margin-top:-100px; */
         
+    }
+    .textBox2{
+        letter-spacing: 0px;
     }
 }
 @media screen and (max-width:1092px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:420px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -90px;
-       margin-left: -20px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
+    
 
 }
 @media screen and (max-width:1047px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:380px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -90px;
-       margin-left: -7px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
+    
 
 }
 @media screen and (max-width:992px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:380px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -90px;
-       margin-left: -20px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
+    
 
 }
 @media screen and (max-width:964px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:370px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -90px;
-       margin-left: -26px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
+    
 
 }
 
@@ -900,16 +895,23 @@ footer{
     .popup-inner{
         /* background-color:black;
         position: relative; */
-        padding:30px;
-       width:330px;
-       height:100px;
-       margin-bottom:80px;
-       margin-top: -91px;
-       margin-left: -3px;
+       
        /* max-width: 500px;
         color:white;
         margin-top:-100px; */
         
+       /* width:380px;
+       height: 100px; */
+       /* margin-bottom:100px; */
+        margin-top: -225px;
+       margin-right: -7px; 
+        
+    }
+    .textBox11{
+        letter-spacing: 1px;
+    }
+    .textBox12{
+        letter-spacing: 1px;
     }
     
     footer{
@@ -935,55 +937,11 @@ footer{
 }
 
 
-@media screen and (max-width:788px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:310px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -92px;
-       margin-left: -3px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
 
-}
-@media screen and (max-width:748px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:300px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -92px;
-       margin-left: -3px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
-
-}
-@media screen and (max-width:728px){
-    .popup-inner{
-        /* background-color:black;
-        position: relative; */
-        padding:30px;
-       width:280px;
-       height: 100px;
-       /* margin-bottom:100px; */
-        margin-top: -92px;
-       margin-left: -3px; 
-       /* max-width: 500px;
-        color:white;
-        margin-top:-100px; */
-        
-    }
+@media screen and (max-width:718px){
+   .textBox11{
+       letter-spacing: -1px;
+   }
 
 }
 @media screen and (max-width:690px){
@@ -1008,6 +966,7 @@ footer{
         max-height: 250px;
     }
     .textBox1{
+        letter-spacing: 1px;
         display: flex;
         justify-content: center;
         font-size: 15px; 
@@ -1023,13 +982,16 @@ footer{
      width:300px;
     }
     .textBox5{
-        word-spacing:-1px;
+        letter-spacing: 1px;
         /* letter-spacing:1px; */
         display: flex;
         justify-content: center;
         font-size: 15px; 
      align-items: center; 
      width:300px;
+    }
+    .textBox12{
+        letter-spacing: 2px;
     }
     /* p{
      font-size: 15px; 
@@ -1065,15 +1027,31 @@ align-items: center;
             /* background-color:black;
             position: relative; */
             padding:30px;
-           width:400px;
-           height:100px;
+          
+           height:230px;
            /* margin-bottom:110px; */
-           margin-top: -80px;
-           margin-left: -50px;
+           margin-top: -250px;
+           margin-left: -40px;
            /* max-width: 500px;
             color:white;
             margin-top:-100px; */
             
+        }
+
+        footer{
+       
+            background: black;
+            padding: 20px 23px;
+            color: white;
+            text-align: center;
+            /* margin-bottom: -30px; */
+            /* position: fixed works better */
+            position:relative;
+            left: 0px;
+            bottom: 0px;
+            height: 60px;
+            width: 100%;
+           
         }
 
 

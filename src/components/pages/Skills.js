@@ -17,37 +17,72 @@ export default function Skills() {
                 <div className="bars">
                     <div class="info">
                         <span>HTML</span>
-                        <span>90%</span>
+                        {/* <span>90%</span> */}
                     </div>
                     <div className="line html"><span className="dot"></span></div>
                 </div>
                 <div className="bars">
                     <div className="info">
                         <span>CSS</span>
-                        <span>60%</span>
+                        {/* <span>60%</span> */}
                     </div>
                     <div className="line css"></div>
                 </div>
                 <div className="bars">
                     <div className="info">
+                        <span>Bootstrap</span>
+                        {/* <span>60%</span> */}
+                    </div>
+                    <div className="line bootstrap"></div>
+                </div>
+                <div className="bars">
+                    <div className="info">
                         <span>JavaScript</span>
-                        <span>80%</span>
+                        {/* <span>80%</span> */}
                     </div>
                     <div className="line js"></div>
                 </div>
                 <div className="bars">
                     <div className="info">
+                        <span>React</span>
+                        {/* <span>60%</span> */}
+                    </div>
+                    <div className="line css"></div>
+                </div>
+                <div className="bars">
+                    <div className="info">
                         <span>Express</span>
-                        <span>85%</span>
+                        {/* <span>85%</span> */}
                     </div>
                     <div className="line express"></div>
                 </div>
                 <div className="bars">
                     <div className="info">
                         <span>MySQL</span>
-                        <span>70%</span>
+                        {/* <span>70%</span> */}
                     </div>
                     <div className="line mysql"></div>
+                </div>
+                <div className="bars">
+                    <div className="info">
+                        <span>NoSQL</span>
+                        {/* <span>60%</span> */}
+                    </div>
+                    <div className="line nosql"></div>
+                </div>
+                <div className="bars">
+                    <div className="info">
+                        <span>REST APIs</span>
+                        {/* <span>60%</span> */}
+                    </div>
+                    <div className="line restapi"></div>
+                </div>
+                <div className="bars">
+                    <div className="info">
+                        <span>GraphQL</span>
+                        {/* <span>60%</span> */}
+                    </div>
+                    <div className="line graphql"></div>
                 </div>
             </div>
         </div>

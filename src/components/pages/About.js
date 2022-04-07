@@ -13,7 +13,7 @@ export default function About() {
             </div>
             <div className="column right"> 
                 <div class="text">I am Olsen and I'm a <span>Developer</span> </div>
-                <p>I'​m​ a full stack developer living in Atlanta Georgia. In terms of hobbies, I am a huge fun of video game especially FIFA. My favorite sport is soccer and i love to travel. I also enjoy creating beautiful web applications that can fix everyday problems.</p>
+                <p className="aboutP">I'​m​ a full stack Web Developer living in Atlanta Georgia. <br/> I have a serious passion for the BackEnd so does for the FrontEnd as well.<br/> My Goal is to keep creating those beautiful web applications that can fix everyday problems.</p>
             </div>
         </div>
     </div>

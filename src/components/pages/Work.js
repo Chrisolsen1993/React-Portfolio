@@ -27,7 +27,7 @@ export default function Work() {
                         <div className="popupContainer"
                                 onMouseEnter={() => setIsShown5(true)}
                                 onMouseLeave={() => setIsShown5(false)}>
-                            <a href="https://chrisolsen1993.github.io/Code-Quiz/" target="_blank"> <img src={toyImg} alt="Code-Quiz projects" class="quiz" /> </a>
+                           <img src={toyImg} alt="Code-Quiz projects" class="quiz" /> 
                             <div className="project-title">Toys-Planet</div>
                             <div className="textBox5">
                             <p> One-stop shop where users  swap their used or unused toys with other users.  </p>
@@ -57,10 +57,10 @@ export default function Work() {
                                 onMouseEnter={() => setIsShown1(true)}
                                 onMouseLeave={() => setIsShown1(false)}>
 
-                            <a href="https://chrisolsen1993.github.io/JOBS-4-MORE/" target="_blank"> <img src={jobsImg} alt="JOBS-4-MORE Generator" class="jobs" /></a>
+                             <img src={jobsImg} alt="JOBS-4-MORE Generator" class="jobs" />
                             
                                 <div className="project-title">JOBS 4 MORE</div>
-                                <div className="textBox1">
+                                <div className="textBox1 textBox11">
                                 <p> Look up a job by tech industry and experience level that best suit your skillset</p>
                                 </div>
                                 <Popup trigger={isShown1}>
@@ -84,7 +84,7 @@ export default function Work() {
                         <div className="popupContainer"
                                 onMouseEnter={() => setIsShown2(true)}
                                 onMouseLeave={() => setIsShown2(false)}>
-                            <a href="https://materials-trader.herokuapp.com/" target="_blank"> <img src={materialImg} alt="mat projects" class="mat" /> </a>
+                            <img src={materialImg} alt="mat projects" class="mat" /> 
                           
                             <div class="project-title">Materials-Trader</div>
                             <div className="textBox2">
@@ -112,9 +112,9 @@ export default function Work() {
                         <div className="popupContainer"
                                 onMouseEnter={() => setIsShown3(true)}
                                 onMouseLeave={() => setIsShown3(false)}>
-                            <a href="https://frozen-brook-84861.herokuapp.com/" target="_blank"> <img src={techImg} alt="blog projects" class="blog" /> </a>
+                            <img src={techImg} alt="blog projects" class="blog" /> 
                             <div className="project-title">Tech-Blog</div>
-                            <div className="textBox1">
+                            <div className="textBox1 textBox12">
                             <p className="wrap"> An app that allow a user to make a post regarding any Tech subject.</p>
                             </div>
                             <Popup trigger={isShown3}>
@@ -140,9 +140,9 @@ export default function Work() {
                         <div className="popupContainer"
                                 onMouseEnter={() => setIsShown4(true)}
                                 onMouseLeave={() => setIsShown4(false)}>
-                            <a href="https://chrisolsen1993.github.io/Weather-Dashboard/" target="_blank"> <img src={teamImg} alt="Weather-Dashboard projects" class="weather" /> </a>
+                            <img src={teamImg} alt="Weather-Dashboard projects" class="weather" /> 
                             <div className="project-title">Team-Generator</div>
-                            <div className="textBox1">
+                            <div className="textBox1 textBox12">
                             <p> An Application that generate a team profile based on the user input</p>
                             </div>
                             <Popup trigger={isShown4}>
@@ -165,7 +165,7 @@ export default function Work() {
                              <div className="popupContainer"
                                 onMouseEnter={() => setIsShown(true)}
                                 onMouseLeave={() => setIsShown(false)}>
-                            <a href="https://chrisolsen1993.github.io/Work-Day-Scheduler/" target="_blank"> <img src={dayImg} alt="day-planner projects" class="day-planner" /> </a>
+                            <img src={dayImg} alt="day-planner projects" class="day-planner" />
                            
                                 <div className="project-title">Day-Planner</div>
                                 <div className="textBox1">
@@ -175,7 +175,7 @@ export default function Work() {
                                     <div className="banner">
                                     <div className="bold">Day-Planner</div>
                                     <div>---------</div>
-                                    <span className="highlight">JavaScript</span>
+                                    <span className="highlight">JavaScript<br/> Data-Attributes</span>
                                     </div>
                                     
                                     <div className="buttonLink">
