@@ -10,7 +10,7 @@ export default function Skills() {
         <div className="skills-content">
             <div class="column left">
                 
-                <p>I​’m​ experienced in multiple web technologies including HTML/CSS, JavaScript, MySQL and Express.</p>
+                <p>I​’m​ experienced in multiple web technologies including HTML/CSS, JavaScript, MySQL, Express etc...</p>
                
             </div>
             <div className="column right">

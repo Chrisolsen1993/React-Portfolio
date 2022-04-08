@@ -125,7 +125,7 @@ export default function Work() {
                                     </div>
                                 <div className="buttonLink">
                                 <a href="https://frozen-brook-84861.herokuapp.com/" target="_blank">    <button className="button-area button1" type="button" >Deployment</button> </a>
-                                <a href="https://github.com/Chrisolsen1993/Tech-Blog" target="_blank">    <button className="button-area" type="button" >Github Code</button></a>
+                                <a href="https://github.com/Chrisolsen1993/Tech-Blog" target="_blank">    <button className="button-area button2" type="button" >Github Code</button></a>
                                 </div>
                             </Popup>
                         </div>
