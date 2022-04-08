@@ -277,6 +277,9 @@ font-size: 17px;
 .popJob{
     height: 280px;
 }
+.textBox12{
+    letter-spacing: 1px;
+}
 /* .textBox1{
     display: flex;
     justify-content: center;
