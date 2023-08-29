@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4faed30d.css",
-    "main.js": "/React-Portfolio/static/js/main.2311ec48.js",
+    "main.css": "/React-Portfolio/static/css/main.22b20b0c.css",
+    "main.js": "/React-Portfolio/static/js/main.0c8b09c4.js",
     "static/media/mat.png": "/React-Portfolio/static/media/mat.cff828087bd8da9b122c.png",
     "static/media/blog.png": "/React-Portfolio/static/media/blog.29bdbd2c8b5c1a18299e.png",
     "static/media/jobs.png": "/React-Portfolio/static/media/jobs.53fe088dfedb172e7542.png",
-    "static/media/Team.png": "/React-Portfolio/static/media/Team.9778bc2e907ef2900620.png",
     "static/media/Toy.png": "/React-Portfolio/static/media/Toy.881eb1a5c431a4bf5f22.png",
     "static/media/day-planner.png": "/React-Portfolio/static/media/day-planner.96fb780687f55a45b4ab.png",
+    "static/media/Myschool.jpeg": "/React-Portfolio/static/media/Myschool.6f78c59d107fd40ad039.jpeg",
     "static/media/avatar.jpeg": "/React-Portfolio/static/media/avatar.c3a6e4be5bb619bc3c72.jpeg",
     "index.html": "/React-Portfolio/index.html",
-    "main.4faed30d.css.map": "/React-Portfolio/static/css/main.4faed30d.css.map",
-    "main.2311ec48.js.map": "/React-Portfolio/static/js/main.2311ec48.js.map"
+    "main.22b20b0c.css.map": "/React-Portfolio/static/css/main.22b20b0c.css.map",
+    "main.0c8b09c4.js.map": "/React-Portfolio/static/js/main.0c8b09c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4faed30d.css",
-    "static/js/main.2311ec48.js"
+    "static/css/main.22b20b0c.css",
+    "static/js/main.0c8b09c4.js"
   ]
 }
