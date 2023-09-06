@@ -51,7 +51,10 @@ export default function Work() {
                     </span>
                   </div>
                   <div className="buttonLink">
-                    <a href="myschool-app.herokuapp.com/" target="_blank">
+                    <a
+                      href="https://myschool-app.herokuapp.com/"
+                      target="_blank"
+                    >
                       {" "}
                       <button className="button-area button1" type="button">
                         Deployment
